@@ -1,0 +1,271 @@
+App.css
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Todo List */
+ul.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+li.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+li.todo-item:last-child {
+  border-bottom: none;
+}
+
+/* Todo Item Text */
+.todo-item .todo-text {
+  flex: 1;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.todo-item .todo-text.completed {
+  font-weight: bold;
+  color: green;
+}
+
+/* Overdue Text */
+.todo-item .due-date {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.todo-item .overdue {
+  color: red;
+  margin-left: 10px;
+}
+
+/* Completed Badge */
+.completed-badge {
+  background-color: #28a745;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Edit Input */
+input[type="text"], input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"], form input[type="date"] {
+  margin-bottom: 10px;
+}
+
+form button {
+  align-self: flex-start;
+  background-color: #28a745;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+}
+
+
+/* App.css */
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1, h2 {
+  color: #333;
+}
+
+/* Todo List */
+ul.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+li.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+li.todo-item:last-child {
+  border-bottom: none;
+}
+
+/* Todo Item Text */
+.todo-item .todo-text {
+  flex: 1;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.todo-item .todo-text.completed {
+  font-weight: bold;
+  color: green;
+}
+
+/* Overdue Text */
+.todo-item .due-date {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.todo-item .completed-badge {
+  background-color: #28a745;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Completed Badge */
+.completed {
+  background-color: #e9ecef;
+}
+
+/* Edit Input */
+input[type="text"], input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"], form input[type="date"] {
+  margin-bottom: 10px;
+}
+
+form button {
+  align-self: flex-start;
+  background-color: #28a745;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+}
+
